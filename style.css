@@ -1,0 +1,273 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+nav {
+  background-color: rgb(0, 0, 255);
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  top: 0px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.navbar h1,
+h2 {
+  padding: 20px;
+  font-size: 24px;
+  float: left;
+  color: rgb(44, 48, 49);
+}
+
+.navbar h1 {
+  font-size: 36px;
+  top: -8px;
+  position: relative;
+}
+
+.navbar h2:hover {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search {
+  margin: 15px 1px 0px 100px;
+}
+
+.search input {
+  width: 350px;
+  height: 30px;
+}
+
+.navbar h1 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-style: italic;
+}
+
+#as {
+  padding: 4px;
+  width: 100x;
+  border: none;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  text-align: center;
+}
+
+button {
+  height: 30px;
+  width: 90px;
+  margin-top: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  font-size: 15px;
+}
+
+.offers {
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+
+.offer {
+  margin-left: 50px;
+  display: flex;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+
+.off {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.off:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.off a {
+  position: relative;
+  left: 40px;
+}
+
+.image1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ami {
+  width: 90vw;
+  margin: 0px auto;
+}
+
+.phone {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-family: "Satisfy", cursive;
+}
+
+.phones {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 1px solid white;
+  margin-right: 20px;
+  color: rgb(44, 48, 49);
+  background-color: white;
+}
+
+.phone a {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.pho {
+  padding: 10px 50px;
+}
+
+.pho:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.bat {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-family: "Satisfy", cursive;
+}
+
+.cricket {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.cricket a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cric {
+  padding: 10px 40px;
+}
+
+.cric:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.cloth {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-family: "Satisfy", cursive;
+}
+
+.cloths {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: white;
+  margin-right: 20px;
+  flex-wrap: wrap;
+}
+
+.cloths a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.clo {
+  padding: 10px 45px;
+}
+
+.clo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 12vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+footer ul li {
+  padding: 4px;
+}
+
+@media screen and (max-width: 1225px) {
+  .goyal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+
+  .navbar h1 {
+    margin-bottom: 1px;
+    margin-top: 1px;
+  }
+
+  nav {
+    flex-direction: column;
+    display: inline-block;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  #as {
+    width: 170px;
+    margin-bottom: 15px;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+}
